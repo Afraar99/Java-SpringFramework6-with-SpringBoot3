@@ -19,10 +19,9 @@ public class methods
 {
     public static void main(String[] args) 
     {
-        Computer obj = new Computer();
-        obj.playMusic();
-        String str = obj.getMePen(40);
-        System.out.println(str);
-        
+        Computer comp = new Computer();
+        comp.playMusic();   
+        String str = comp.getMePen(1);
+        System.out.println(str);   
     }
 }
